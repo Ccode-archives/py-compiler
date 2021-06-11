@@ -3,6 +3,7 @@ cd py2v
 ./py2v.sh $1 $2
 rm $1
 cp $2 ../
+rm $2
 cd ..
 v/v $2
 echo done
