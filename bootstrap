@@ -6,7 +6,7 @@ cd ..
 
 # get other repos
 git clone https://github.com/vlang/py2v
-cp /py2v/py2v.sh pwd
-cp -r /py2v/json2v pwd
-rm -rf py2v
-./v/v -prod json2v -o json2v
+cd py2v
+./v/v -prod json2v -o json2v/json2v
+cd ..
+
