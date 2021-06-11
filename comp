@@ -6,4 +6,5 @@ cp $2 ../
 rm $2
 cd ..
 v/v $2
+rm $2
 echo done
