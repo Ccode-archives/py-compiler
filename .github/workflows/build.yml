@@ -29,8 +29,9 @@ jobs:
         run: |
           chmod +x bootstrap
           ./bootstrap
+      - name: compile py
+        run: |
           ./comp example.py example.v
-          pwd
       # runs compiled python
       - name: run
         run: |
