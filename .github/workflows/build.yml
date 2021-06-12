@@ -36,3 +36,5 @@ jobs:
         run: |
           chmod +x bootstrap
           ./bootstrap
+      - name: show file contents
+        run: ls
