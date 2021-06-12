@@ -8,6 +8,6 @@ cd ..
 git clone https://github.com/vlang/py2v
 cd py2v
 ../v/v -prod json2v -o json2v/json2v
+..v/v py2v.v
 cd ..
-v/v py2v.v
 
