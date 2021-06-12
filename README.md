@@ -15,9 +15,9 @@ Ignore the build warnings.
 ```./comp <python scripts name> <bianary name>.v```
 
 ## info
-Python compiler uses a transpiler to change python code into v code. If it returns that it skiped something because it wasn't supported or the v code won't compile report it on https://github.com/vlang/py2v.  
+Python compiler uses a transpiler to change python code into v code. If it returns that it skiped something because it wasn't supported or the v code won't compile report it to me.  
   
-If they ask for the outputed v file run
+If maintainers ask for the outputed v file run
 ```
 cp <yourfile.py> py2v
 cd py2v
