@@ -1,5 +1,5 @@
 # Py-compiler
-A python compiler that compiles python to C binaries using py2v and the vlang compiler
+A python compiler that compiles python to C binaries using py2v and the Vlang compiler
 
 
 ## To install
