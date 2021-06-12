@@ -27,8 +27,7 @@ jobs:
       # builds needed files
       - name: build
         run: |
-          chmod +x bootstrap
-          ./bootstrap
+          ./bootstrap.sh
           ./comp example.py example.v
       # runs compiled python
       - name: run
