@@ -34,7 +34,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: build
         run: |
-        git clone https://github.com/Ccode-lang/py-compiler
-        cd py-compiler
-        chmod +x bootstrap
-        ./bootstrap
+          chmod +x bootstrap
+          ./bootstrap
