@@ -1,4 +1,4 @@
-# py-compiler
+# Py-compiler
 A python compiler that compiles python to C binaries using py2v and the vlang compiler
 
 
