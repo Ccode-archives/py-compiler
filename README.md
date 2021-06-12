@@ -6,7 +6,8 @@ A python compiler that compiles python to C binaries using py2v and the Vlang co
 ```bash
 git clone https://github.com/Ccode-lang/py-compiler
 cd py-compiler
-./bootstrap.sh
+chmod +x bootstrap
+./bootstrap
 ```  
 Ignore the build warnings.
 
