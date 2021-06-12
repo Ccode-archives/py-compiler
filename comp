@@ -1,6 +1,6 @@
 cp $1 py2v/
 cd py2v
-./py2v.sh $1 $2
+./py2v $1 $2
 rm $1
 cp $2 ../
 rm $2
