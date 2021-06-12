@@ -30,6 +30,8 @@ jobs:
           chmod +x bootstrap
           ./bootstrap
           ./comp example.py example.v
+          pwd
       # runs compiled python
       - name: run
         run: ./example
+          
