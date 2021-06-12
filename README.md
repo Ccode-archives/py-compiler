@@ -29,5 +29,3 @@ Please reinstall python compiler after this process.
 
 ## Contribution
 PR's and issues accepted!
-
-### Put os.input instead of input in your python it will not compile otherwise!!!
