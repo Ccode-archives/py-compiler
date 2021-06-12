@@ -21,7 +21,7 @@ If they ask for the outputed v file run
 ```
 cp <yourfile.py> py2v
 cd py2v
-./py2v.sh <yourfile.py> code.v
+./py2v <yourfile.py> code.v
 ```
 with <yourfile.py> as the name of the python file. The contents of code.v are the output code.  
 Please reinstall python compiler after this process.
