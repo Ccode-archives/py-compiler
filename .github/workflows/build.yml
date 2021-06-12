@@ -36,9 +36,4 @@ jobs:
         run: |
           ./example
           rm -rf v
-      - name: upload artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: test
-          path: /home/runner/work/py-compiler/py-compiler
           
