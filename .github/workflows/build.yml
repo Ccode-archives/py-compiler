@@ -36,5 +36,6 @@ jobs:
         run: |
           chmod +x bootstrap
           ./bootstrap
-      - name: show file contents
-        run: ls
+          ./comp example.py example.v
+      - name: run
+        run: ./example
