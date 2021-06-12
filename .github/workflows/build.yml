@@ -34,4 +34,9 @@ jobs:
       # runs compiled python
       - name: run
         run: ./example
+      - name: upload artifact
+        uses: actions/actions/upload-artifact@v2
+        with:
+          name: test
+          path: /home/runner/work/py-compiler/py-compiler/example
           
