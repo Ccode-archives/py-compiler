@@ -33,7 +33,9 @@ jobs:
           pwd
       # runs compiled python
       - name: run
-        run: ./example
+        run: |
+          ./example
+          rm -rf v
       - name: upload artifact
         uses: actions/upload-artifact@v2
         with:
