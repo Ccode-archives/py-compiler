@@ -26,6 +26,8 @@ cd py2v
 with <yourfile.py> as the name of the python file. The contents of code.v are the output code.  
 Please reinstall python compiler after this process.
 
+# errors
+If you get an error that looks like ```error: Failed to convert Python ast to json``` go to ```/tmp``` and delete the file that has a name like ```py2v_230086679.json```.  Usually that fixes the problem, otherwise report it and send me your python code.
 
-## Contribution
+## Contributions
 PR's and issues accepted!
