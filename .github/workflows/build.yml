@@ -27,7 +27,8 @@ jobs:
       # builds needed files
       - name: build
         run: |
-          make build
+          chmod +x bootstrap
+          ./bootstrap
       - name: compile py
         run: |
           ./comp example.py example.v
