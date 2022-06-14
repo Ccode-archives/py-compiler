@@ -1,4 +1,4 @@
-# Py-compiler
+# Py-compiler (out of date)
 A python compiler that compiles python to V binaries using py2v and the Vlang compiler.
 
 
